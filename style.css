@@ -1,0 +1,92 @@
+body {
+    background-color: maroon;
+}
+
+#container {
+    background-color: #f6b319;
+    border-radius: 0px;
+    border: 0px;
+    --bs-gutter-x: 0.5rem;
+
+}
+
+.navbar .navbar-expand-lg .bg-body-tertiary {
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+
+.nav-brand img {
+    margin: 10px 15px 10px 0px;
+}
+
+#company {
+    color: #61b431;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 26px;
+
+
+}
+
+#navitem {
+    color: maroon;
+    font-size: 18px;
+    padding: 2px 8px;
+
+}
+
+#navitem:hover {
+    color: red;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#deliver {
+    color: green;
+    font-size: 15px;
+    text-align: right;
+}
+
+#menu-tile, #special-tile,#map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    background-size: cover;
+}
+#menu-tile:hover, #special-tile:hover,#map-tile:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc ;
+}
+#menu-tile{
+    background: url(menu.jpg)  no-repeat center center/cover;
+    background-position: center;
+}
+#special-tile{
+    background: url(specials.jpg) no-repeat center center/cover;
+    background-position: center;
+}
+#menu-tile span , #special-tile span ,#map-tile span {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.panel-footer{
+margin-top: 30px;
+padding-top: 35px;
+padding-bottom: 30px;
+background-color: #222;
+border-top: 0;
+color: white;
+}
+#hours{
+    line-height: 2;
+}
